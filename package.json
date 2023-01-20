@@ -4,7 +4,9 @@
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
-  "engines": { "node": "16" },
+  "engines": {
+    "node": "16"
+  },
   "dependencies": {
     "@emotion/css": "11.10.5",
     "@types/deepmerge": "2.2.0",
@@ -28,5 +30,16 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
 }
